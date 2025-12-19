@@ -1,4 +1,19 @@
-# Python
+# ============================================
+# IMPORTANT: Git repository is at /home/jd level
+# Only track files in Python/FastAPI directory
+# ============================================
+
+# Ignore everything in parent directories
+/*
+!/Python/
+
+# Within Python directory, ignore everything except FastAPI
+/Python/*
+!/Python/FastAPI/
+
+# ============================================
+# Python specific ignores
+# ============================================
 __pycache__/
 *.py[cod]
 *$py.class
