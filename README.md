@@ -54,6 +54,7 @@ Start the FastAPI server using Uvicorn.
 ```bash
 uvicorn main:app --reload
 ```
+OR
 
 ```bash
 fastapi dev main.py --reload
