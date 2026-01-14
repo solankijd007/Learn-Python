@@ -55,6 +55,10 @@ Start the FastAPI server using Uvicorn.
 uvicorn main:app --reload
 ```
 
+```bash
+fastapi dev main.py --reload
+```
+
 The application will be available at `http://127.0.0.1:8000`.
 API documentation can be accessed at:
 - Swagger UI: `http://127.0.0.1:8000/docs`
