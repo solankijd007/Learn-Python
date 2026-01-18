@@ -45,6 +45,9 @@ Ensure you have a `.env` file in the root directory with the necessary configura
 Example `.env` content:
 ```env
 DB_CONNECTION=postgresql://user:password@localhost:5432/dbname
+SECRET_KEY="enter your secret key"
+ALGORITHM="HS256"
+EXP_TIME=30
 ```
 
 ### 6. Run the Application
